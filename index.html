@@ -7,6 +7,11 @@
     <title>Protfolio</title>
     <link rel="stylesheet" href="protfolioStyle.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        function myFunction() {
+          alert("Message Sent Successfully!");
+        }
+        </script>
 </head>
 <body>
     <div class="wrapper">
@@ -232,7 +237,7 @@
 
                             </div>
                             <div>
-                                <button type="submit" class="btn-pink" id="submit-btn">Send message
+                                <button type="submit" onclick=" myFunction()" class="btn-pink" id="submit-btn">Send message
                                     <i class="submit-icon fa-solid fa-paper-plane "></i>
                                 </button>
                             </div>
