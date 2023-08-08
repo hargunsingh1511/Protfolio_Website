@@ -71,8 +71,6 @@ a{
     user-select: none;
     font-size: 7rem;
     color:rgb(231, 231, 231);
-    bottom: -16%;
-    left: -5%;
     font-weight: bold;
     transition: all 3s;
 }
@@ -147,10 +145,12 @@ a{
     padding: 2.5rem;
     filter: grayscale(1);
     transition: all 1s;
+    
     animation: scaleImage 5s linear infinite;
 }
 .user-image img{
     z-index: -1;
+    height: 400px;
 }
 
 @keyframes scaleImage {
@@ -385,19 +385,19 @@ left:10%
     transform: scale(1.1);
 }
 #project1{
-    background-image: url(images/projects/Project1.png);
+    background-image: url(images/projects/Project1\ \(2\).png);
     margin-right: 120px;
 }
 #project2{
-    background-image: url(images/projects/Project2.png);
+    background-image: url(images/projects/Project2\ \(1\).png);
     margin-left: 120px;
 }
 #project3{
-    background-image: url(images/projects/Project3.png);
+    background-image: url(images/projects/Project3\ \(2\).png);
     margin-right: 120px;
 }
 #project4{
-    background-image: url(images/projects/Project4.png);
+    background-image: url(images/projects/Project4\ \(2\).png);
     margin-left: 120px;
 }
 .skills-container{
